@@ -1,6 +1,6 @@
 FROM dockerfile/java:oracle-java8
 
-ENV MESOS_VERSION 0.21.1
+ENV MESOS_VERSION 0.22.0
 ENV MESOS_NATIVE_LIBRARY='/usr/local/lib/libmesos.so'
 
 RUN apt-get update -y && apt-get upgrade -y
