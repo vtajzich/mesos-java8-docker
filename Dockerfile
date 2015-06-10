@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM vtajzich/java:oracle-java8
 
 ENV MESOS_VERSION 0.22.1
 ENV MESOS_NATIVE_JAVA_LIBRARY='/usr/local/lib/libmesos.so'
